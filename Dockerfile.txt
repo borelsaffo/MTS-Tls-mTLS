@@ -1,0 +1,15 @@
+FROM opnfv/xtesting-mts:latest
+
+#WORKDIR  /home/mts
+COPY   . /usr/lib/python3.9/site-packages/xtesting/samples/mts/
+
+#RUN apk add update \
+#&& pip install pandas \
+#&& pip install argparse \
+#&& apt-get install pycharms
+
+EXPOSE  8080
+
+ENTRYPOINT ["sleep"]
+CMD ["infinity"]
+WORKDIR /opt/mts/bin
