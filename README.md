@@ -46,7 +46,7 @@ And verify the output:
 ```
 openssl req -text -noout -verify -in mtscsr.csr
 ```
-* Go to [PKI as a service ](https://pki/certificates/request.do) and load the `mtscsr.csr` in order to generate the certificate as an output. Steps are defined in confluence (link to be added) > Now our client certificate is ready : `hostname.5gc.mncxx.mccyy.3gppnetwork.org.pem` which we will deposite on our MTS environment.
+* Go to your  [PK ](https://pki/certificates/request.do) and load the `mtscsr.csr` in order to generate the certificate as an output. Steps are defined in confluence (link to be added) > Now our client certificate is ready : `hostname.5gc.mncxx.mccyy.3gppnetwork.org.pem` which we will deposite on our MTS environment.
 * Retrieve the  certificate chain : root CA and intermediate CA from confluence (link to be added)  
 ## Install certificates in the keystores:
 
